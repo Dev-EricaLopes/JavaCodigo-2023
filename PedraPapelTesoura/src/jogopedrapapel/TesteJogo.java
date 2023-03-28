@@ -15,6 +15,7 @@ public class TesteJogo {
 
     public static void main(String[] args) {
         
+        
         String nome;
         
         Scanner sc = new Scanner(System.in);
