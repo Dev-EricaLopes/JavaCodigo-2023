@@ -11,7 +11,8 @@ package sistemaacademicoheranca;
 public class Aluno extends Pessoa{    
     int ra;
     
-    public Aluno() {
+    public Aluno(String nome, int idade) {
+
         System.out.println("Construindo Aluno...");
     }
     

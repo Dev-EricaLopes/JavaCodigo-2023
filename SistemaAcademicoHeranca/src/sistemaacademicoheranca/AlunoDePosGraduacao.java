@@ -10,5 +10,9 @@ package sistemaacademicoheranca;
  */
 public class AlunoDePosGraduacao extends Aluno
 {
+
+    public AlunoDePosGraduacao() {
+        super("Alice", 19);
+    }
     char conceito;
 }

@@ -12,6 +12,13 @@ public class Pessoa {
     private String nome;
     private int idade;
 
+    
+    public Pessoa() {
+        System.out.println("Construindo Pessoa...");
+        this.setNome(nome);
+        this.setIdade(idade);
+    }    
+    
     public String getNome() {
         return nome;
     }
@@ -27,9 +34,6 @@ public class Pessoa {
     public void setIdade(int idade) {
         this.idade = idade;
     }
-    
-    public Pessoa() {
-        System.out.println("Construindo Pessoa...");
-    }
+
     
 }

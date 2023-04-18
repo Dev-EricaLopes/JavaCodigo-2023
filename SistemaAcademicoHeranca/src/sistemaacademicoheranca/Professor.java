@@ -8,12 +8,13 @@ package sistemaacademicoheranca;
  *
  * @author erica
  */
-public class Professor extends Pessoa{
+    public class Professor extends Pessoa{
     int matricula;
+
     
     public void lecionar () 
     {
-        System.out.println(nome + " lecionando...");
+        System.out.println(" lecionando...");
     }
     
 }
